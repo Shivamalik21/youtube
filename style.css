@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto','sans-serif';
+   overflow-y: hidden;
+
+    /*first-navbaar*/
+}
+
+   
+.nav_bar{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+  
+  
+  
+}
+
+.nav_left{
+    display: flex;
+    flex-direction: row;
+  align-items: center;
+    height: 14vh;
+ padding-left: 3vw;
+ 
+   
+    
+}
+.nav_bar img{
+    width: 100px;
+    height: 100px;
+    margin-left: 3px;
+}
+input{
+    font-size: larger;
+    padding-left: 10px;
+    width:30vw;
+    height: 5vh;
+   border: #ddd;
+}
+.nav_middle{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 5vh;
+    border: 2px solid black;
+}
+ .nav_middle i{
+    padding-top: 5px;
+    padding-left:3px ;
+    height: 5vh;
+    width: 2vw;
+    background-color: #e5e5e5;
+}
+.nav_right{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    
+}
+ .nav_right .material-icons{
+    
+    margin-right: 10px;
+   
+}
+/*second-navbar*/
+.nav_bar2{
+    display:flex;
+    flex-direction:column;
+    padding: 0px;
+    width:20vw ;
+    overflow-y:auto;
+    sc
+}
+.nav_bar2section{
+    display: flex;
+    flex-direction: column;
+   
+   
+    
+
+}
+.nav_bar2section-main{
+    display: flex;
+    margin-top: 15px;
+     padding-left: 45px;
+    
+     height: 60px;
+     align-items: center;
+     
+}
+
+.nav_bar2section-main p{
+    margin-left: 30px;
+    font-size: 19px;
+}
+i{
+    color: rgb(140, 141, 141);
+    
+}
+hr{
+    width:16vw;
+}
+/*template*/
+.template{
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100vh;
+    padding: 25px 15px;
+    overflow-y: scroll;
+    border-top: 1px solid #ddd;
+    
+
+  
+    
+    }
+    .grid-container{
+        display: grid;
+       grid-template-columns: repeat(3,33.3%);
+       grid-template-rows: repeat(5,20%);
+
+    }
+    .grid-items{
+      
+       width:23vw;
+       height: 50vh;
+       
+    }
+    .div{
+        margin-top: 5px;
+        margin-left: 3.0%;
+    }
+    img{
+        width:100%;
+        height:60%;
+
+    }
+    .discription{
+        display: flex;
+        width: 100%;
+    }
+    .discription img{
+        width:100px;
+        height: 50px;
+    }
+    h2{
+        font-size:22px;
+        margin-left: 10px;
+        
+    }
+    p{
+        margin-left: 48px;
+    }
+      .nav_bar2section-main:hover{
+           background-color: #e5e5e5;
+           
+           cursor: pointer;
+      }
+    
