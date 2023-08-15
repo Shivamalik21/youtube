@@ -76,7 +76,7 @@ input{
     padding: 0px;
     width:20vw ;
     overflow-y:auto;
-    sc
+    
 }
 .nav_bar2section{
     display: flex;
@@ -88,7 +88,7 @@ input{
 }
 .nav_bar2section-main{
     display: flex;
-    margin-top: 15px;
+   
      padding-left: 45px;
     
      height: 60px;
@@ -98,7 +98,7 @@ input{
 
 .nav_bar2section-main p{
     margin-left: 30px;
-    font-size: 19px;
+    font-size: 15px;
 }
 i{
     color: rgb(140, 141, 141);
@@ -150,7 +150,7 @@ hr{
         height: 50px;
     }
     h2{
-        font-size:22px;
+        font-size:18px;
         margin-left: 10px;
         
     }
